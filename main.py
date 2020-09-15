@@ -4,4 +4,5 @@ async def factorial(name, number):
         print(f"Task {name}: Compute factorial({number}), currently i={i}...")
         await asyncio.sleep(1)
         f *= i
+    print(f"Task {name}: factorial({number}) = {f}")
     return f
