@@ -12,11 +12,11 @@ async def factorial(name, number):
 
 
 async def main():
-    L = await asyncio.gather(
+    var = await asyncio.gather(
         factorial("A", 2),
         factorial("B", 3),
         factorial("C", 4),
     )
-    print(L)
+    print(var)
 
 asyncio.run(main())

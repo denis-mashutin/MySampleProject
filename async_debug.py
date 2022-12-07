@@ -9,6 +9,3 @@ async def main():
 
 async def foo(y):
     return y + 1
-
-
-
